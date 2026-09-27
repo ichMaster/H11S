@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 H11S is a vertical shooter in the spirit of Xenon 2: Megablast, the third game in the H11 world (after H11 and H11A). Right now the repository holds only the design concept, `specification/H11S-concept.md`, and no Godot project. The Stage 0 prototype mentioned in the spec (`megablast-prototype`) lives outside this repo. There are no build, lint or test commands yet. When a Godot project is added, update this file with the real commands (headless smoke test, Linux arm64 export).
 
-Documentation is written in Ukrainian. Keep new spec text in Ukrainian to match. The spec is versioned: bump the version and date in its header, and add a "Зміни у версії X" section when you change it.
+Documentation is written in Ukrainian. Keep new spec text in Ukrainian to match. The spec is versioned: bump the version and date in its header, and add a "Зміни у версії X" section when you change it. An English translation lives in `specification/H11S-concept-en.md`; the Ukrainian original is authoritative, so update the translation whenever the original changes.
 
 `.gitignore` is the stock Python template and has no Godot entries (`.godot/`, `*.import`, export outputs). Add them when you create the Godot project.
 
